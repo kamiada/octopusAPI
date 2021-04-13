@@ -1,0 +1,24 @@
+{
+  "name": "octopusapi",
+  "version": "1.0.0",
+  "description": "Node.JS application which takes in any value and returns it as a randome octopus name",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kamiada/octopusAPI.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kamiada/octopusAPI/issues"
+  },
+  "homepage": "https://github.com/kamiada/octopusAPI#readme"
+}
