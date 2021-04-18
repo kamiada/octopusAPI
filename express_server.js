@@ -1,5 +1,9 @@
-const app = require("express")();
+const express = require("express");
+const app = express();
 const PORT = 8080;
+
+app.use(express.json());//middleware already inside json file
+
 app.listen(PORT, () => console.log(`hosted on http://localhost:${PORT}`));
 app.get("/octopus", (req, res) => {
   //every time when this endpoint is requested - localhost:8080/octopus - run the function below
