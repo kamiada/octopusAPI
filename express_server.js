@@ -8,4 +8,5 @@ app.get('/octopus', (req, res) => {
     //every time when this endpoint is requested - localhost:8080/octopus - run the function below
     //request (req) - incoming data
     //response (res) - outcoming data
+    res.status(200);
 })
