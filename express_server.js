@@ -16,4 +16,8 @@ app.get('/octopus', (req, res) => {
 
 app.post('/octopus/:id', (req, res) => {
     const {id} = req.params;
+    const logo = req.body;
+    if(!logo) {
+        res.status(418).send({message: "We need a logo!"})
+    }
 })
