@@ -20,3 +20,10 @@ First launch API, which should work on localhost 8080, then cd into folder with 
 ```npm start```
 
 Web app should launch on localhost 3000. There you should be able to see button with which you can request random facts about octopuses. 
+
+## Web app
+
+Credits for images: 
+https://unsplash.com/photos/Lu9z9qS8I_Q?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink
+https://unsplash.com/photos/cBHt4js8nVQ?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink
+https://unsplash.com/photos/ZfuBRbjQFpc?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink
