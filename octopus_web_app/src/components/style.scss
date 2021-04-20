@@ -1,5 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+button {
+    border: none;
+    text-decoration: none;
+    text-transform: none;
+    text-align: center;
+    border: none;
+    outline: none;
+  }
 .button_request {
     font-family: 'Dancing Script', cursive;
-    font-size: large;
+    font-size: 60px;
+    font-weight: bolder;
+    color: #812DAB;
+    background-color: transparent;
 }
