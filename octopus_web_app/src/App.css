@@ -1,10 +1,16 @@
 .App {
   text-align: center;
+  background-color: #050203;
+  height: 500px;
+  margin-top: -10px;
+  overflow: scroll;
 }
-.content-container {
-  margin-top: 20%;
+body {
+  background-image: url("./images/pinkishOctopus.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;  
 }
-.header_octopus {
-  width: -moz-available;
-  height: 10%;
+.top-wave {
+  margin-top: 10%;
 }
