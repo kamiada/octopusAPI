@@ -1,6 +1,9 @@
 import "./App.css";
 import Button from "../src/components/Button";
 
+function callApi() {
+  console.log('click');
+}
 function App() {
   return (
     <body>
@@ -16,7 +19,7 @@ function App() {
     </div>
       <div className="App">
         <div className="content-container">
-          <Button />
+          <Button handleClick={callApi} />
         </div>
       </div>
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
