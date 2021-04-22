@@ -13,4 +13,9 @@ button {
     font-weight: bolder;
     color: #812DAB;
     background-color: transparent;
+    border-color: #812DAB;
+    border-width: 10px;
+}
+.button_request:hover {
+    border-color: #812DAB;
 }
