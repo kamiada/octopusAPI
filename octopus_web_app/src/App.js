@@ -1,8 +1,23 @@
 import "./App.css";
 import Button from "../src/components/Button";
 
-function callApi() {
-  console.log('click');
+async function callApi(url='http://localhost:8080/octopus', data = {}) {
+  // fetch('http://localhost:8080/octopus')
+  // .then(response => console.log(response.json()))
+  // .then(data => console.log(data))
+  const response = await fetch(url, {
+    method: 'GET',
+    mode: 'cors', 
+    cache: 'no-cache', 
+    credentials: 'same-origin', 
+    headers: {
+      'Content-Type': 'application/json'
+    },
+    redirect: 'follow',
+    referrerPolicy: 'no-referrer',
+  });
+  console.log(response);
+  return response.json(); 
 }
 function App() {
   return (

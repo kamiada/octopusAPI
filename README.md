@@ -15,7 +15,7 @@ Inside of folder OctopusApi there is a simple API which should be run first via 
 
 ...and React.JS web application: octopus_web_app. 
 
-First launch API, which should work on localhost 8080, then cd into folder with octopus_web_app and start with command
+First launch API, which should work on http://localhost:8080/octopus, then cd into folder with octopus_web_app and start with command
 
 ```npm start```
 
